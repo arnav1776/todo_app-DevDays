@@ -12,13 +12,13 @@ const itemSchema={
 }
 const Item=mongoose.model("Item",itemSchema);
 const item1=new Item({
-    name:"Welcome to CodinGyaan",
+    name:"Dev Days Web Dev Challenge",
 });
 const item2=new Item({
-    name:"Like ,Share and Subscribe",
+    name:"Week 2",
 });
 const item3=new Item({
-    name:"Enjoy learning",
+    name:"Arnav Sharma",
 });
 const d=[item1,item2,item3];
 /*
